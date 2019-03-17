@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+   <title>Final Project</title>
+   <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+   <link rel="stylesheet" text="type/css" href="style.css">
+  </head>
+  <body>
+<h1 id="headOne">Let's Create An ID Card!</h1>
+  
+<form id="form" tag:  onsubmit="return false">
+  <label> First Name:</label>
+  <input id="firstName" type ="text"><br>
+  <label> Last Name:</label>
+  <input id="lastName" type ="text"><br>
+  <label> Age:</label>
+  <input id="age" type ="number"><br>
+  <label> Phone Number:</label>
+  <input id="phoneNumber" type="number"><br>
+  <label> Address:</label>
+  <input id="address" type= "text"><br><br>
+  <button id="btn" onclick="idCard()">Get ID Card!</button>
+ </form>
+
+   <br><br>
+  <div id="idCard">
+   <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+    <p id="postFullName"></p>
+    <p id="postAge"></p>
+    <p id="postPhoneNumber"></p>
+    <p id="postAddress"></p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
